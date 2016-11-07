@@ -1,0 +1,38 @@
+.controller {
+  position: relative;
+  border: solid 2px #61dafb;
+  padding: 0 0 40px;
+  width: 500px;
+  height: 200px;
+  margin: -435px 100px 0 10px;
+  float: right;
+  .successButton{
+    background-color: #ff1e20;
+    margin: 20px;
+  }
+  .cancelButton{
+    background-color: #eafff2;
+    margin: 20px;
+  }
+  .buttons{
+    float: right;
+  }
+  .flashing{
+    margin: 0 20px;
+    span {
+      margin: 30px;
+      display: inline-block;
+    }
+  }
+  .statistic{
+    color: #ff1e20;
+    margin: 10px;
+    width: 300px;
+    border: #60ff24 5px solid;
+    padding: 25px 5px;
+    span{
+      display: inline;
+      margin: 15px 10px;
+    }
+  }
+}

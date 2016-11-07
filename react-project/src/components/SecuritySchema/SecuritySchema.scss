@@ -1,0 +1,16 @@
+.container {
+  border: solid 2px #373277;
+  padding: 0 0 40px;
+  max-width: 600px;
+  height: 370px;
+  margin: 20px 50px;
+  z-index: 1;
+  .thief{
+    cursor: pointer;
+    z-index: 15;
+  }
+}
+.title{
+  margin: 0 auto;
+  text-align: center;
+}
